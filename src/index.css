@@ -1,4 +1,4 @@
-.App{
+.App {
   display: flex;
   min-height: 100vh;
   align-items: center;
@@ -6,7 +6,7 @@
   background-color: rgb(70, 69, 69);
 }
 
-.calculator{
+.calculator {
   width: 100%;
   max-width: 400px;
   border: white;
@@ -14,14 +14,13 @@
   overflow: hidden;
 }
 
-.display{
+.display {
   padding: 16px;
   color: white;
   background-color: black;
   font-size: 20px;
-
 }
-Button{
+Button {
   appearance: none;
   border: none;
   outline: none;
@@ -31,35 +30,41 @@ Button{
   color: white;
   cursor: pointer;
 }
-button:hover{
-  opacity:0.9;
+button:hover {
+  opacity: 0.9;
 }
 
-.operators{
+.operators {
   display: flex;
 }
 
-.operators button{
-  flex:1 1 0%;
+.operators button {
+  flex: 1 1 0%;
   background-color: orange;
   font-weight: 700;
 }
 
-.digits{
+.digits {
   display: flex;
   flex-wrap: wrap;
 }
 
-.digits button{
+.digits button {
   flex: 1 1 33.3333%;
 }
 
-
-.array{
+.array {
   display: flex;
 }
 
-.array button{
-  flex:1 1 0%;
-  font-weight: 700;
+.array button {
+  flex: 1 1 33.33%;
+}
+
+.logs {
+  display: flex;
+}
+
+.logs button {
+  flex: 1 1 0%;
 }
